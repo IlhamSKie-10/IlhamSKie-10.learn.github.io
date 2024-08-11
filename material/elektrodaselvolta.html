@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Sel Volta</title>
+    <style>
+        body {
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #8BC6EC 0%, #800080 100%);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+        }
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #444;
+            margin-top: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+        .reaction-table {
+            width: 100%;
+            margin-top: 15px;
+            border-collapse: collapse;
+        }
+        .reaction-table th,
+        .reaction-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .reaction-table th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .note {
+            background-color: #e7f3fe;
+            border-left: 6px solid #2196F3;
+            margin-top: 20px;
+            padding: 15px;
+        }
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 10px solid #ccc;
+            margin: 20px 0;
+            padding: 10px 20px;
+            font-style: italic;
+            color: #555;
+        }
+             .cta {
+     
+      bottom: 20px; 
+      right: 20px;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    .cta span {
+      padding-bottom: 7px;
+      letter-spacing: 4px;
+      font-size: 14px;
+      padding-right: 15px;
+      text-transform: uppercase;
+    }
+
+    .cta svg {
+      transform: translateX(-8px);
+      transition: all 0.3s ease;
+    }
+
+    .cta:hover svg {
+      transform: translateX(0);
+    }
+
+    .cta:active svg {
+      transform: scale(0.9);
+    }
+
+    .hover-underline-animation {
+      position: relative;
+      color: black;
+      padding-bottom: 20px;
+    }
+
+    .hover-underline-animation:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #000000;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .cta:hover .hover-underline-animation:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Elektroda Sel Volta</h1>
+
+        <h2>Elektroda dalam Sel Volta</h2>
+        <p>Elektroda dalam sel Volta, atau sel galvanik, adalah komponen utama yang memungkinkan reaksi redoks terjadi, menghasilkan aliran listrik. Sel Volta terdiri dari dua elektroda yang berbeda, biasanya terbuat dari logam, yang dicelupkan ke dalam larutan elektrolit. Berikut adalah penjelasan lebih lanjut tentang elektroda dalam sel Volta:</p>
+        
+        <h3>Komponen Sel Volta</h3>
+        <ul>
+            <li><strong>Anoda</strong>
+                <ul>
+                    <li>Anoda adalah elektroda di mana oksidasi terjadi.</li>
+                    <li>Elektron dihasilkan di anoda dan kemudian mengalir melalui rangkaian eksternal ke katoda.</li>
+                    <li>Dalam sel Volta, anoda memiliki potensial lebih negatif dibandingkan dengan katoda.</li>
+                    <li>Contoh: Seng (Zn) dalam sel Volta standar.</li>
+                </ul>
+            </li>
+            <li><strong>Katoda</strong>
+                <ul>
+                    <li>Katoda adalah elektroda di mana reduksi terjadi.</li>
+                    <li>Elektron yang dihasilkan di anoda mengalir ke katoda, di mana mereka digunakan untuk mengurangi ion di larutan.</li>
+                    <li>Katoda memiliki potensial lebih positif dibandingkan dengan anoda.</li>
+                    <li>Contoh: Tembaga (Cu) dalam sel Volta standar.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Cara Kerja Sel Volta</h3>
+        <ul>
+            <li><strong>Oksidasi di Anoda:</strong> Logam anoda (misalnya, Zn) kehilangan elektron dan membentuk ion (Zn²⁺), yang masuk ke dalam larutan.
+                <blockquote>Reaksi: Zn (s) → Zn²⁺(aq) + 2e⁻</blockquote>
+            </li>
+            <li><strong>Reduksi di Katoda:</strong> Ion di larutan (misalnya, Cu²⁺) menerima elektron yang mengalir melalui rangkaian eksternal dan mengendap sebagai logam pada katoda.
+                <blockquote>Reaksi: Cu²⁺(aq) + 2e⁻ → Cu (s)</blockquote>
+            </li>
+        </ul>
+
+        <h3>Reaksi Keseluruhan</h3>
+        <p>Reaksi keseluruhan dalam sel Volta adalah gabungan dari reaksi oksidasi di anoda dan reaksi reduksi di katoda. Sebagai contoh, dalam sel Volta dengan seng dan tembaga, reaksi keseluruhannya adalah:</p>
+        <blockquote>Zn (s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu (s)</blockquote>
+
+        <h3>Aplikasi Sel Volta</h3>
+        <p>Sel Volta digunakan sebagai sumber energi dalam berbagai aplikasi, termasuk baterai dan perangkat elektrokimia lainnya. Prinsip kerja sel Volta juga merupakan dasar bagi pengembangan banyak teknologi dalam bidang kimia dan fisika.</p>
+        <a href="../material.html">
+            <button class="cta">
+              <span class="hover-underline-animation">Go Back</span>
+              <svg
+                id="arrow-horizontal"
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="10"
+                viewBox="0 0 46 16"
+              >
+                <path
+                  id="Path_10"
+                  data-name="Path 10"
+                  d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                  transform="translate(30)"
+                ></path>
+              </svg>
+            </button>
+        </a>
+    </div>
+</body>
+</html>

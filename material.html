@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Material</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        html {
+            overflow-y: scroll;
+        }
+        body {
+            overflow-y: hidden; /* Mencegah scroll vertikal */
+        }
+        .card {
+            width: 190px;
+            height: 254px;
+            background: rgb(103, 225, 255);
+            transition: all 0.4s;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+            font-size: 30px;
+            font-weight: 900;
+            margin: 10px; /* Add margin for spacing between cards */
+            flex: 1 1 calc(25% - 20px); /* Four cards per row */
+            box-sizing: border-box;
+        }
+
+        .card:hover {
+            border-radius: 15px;
+            cursor: pointer;
+            transform: scale(1.2);
+            box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+            background: rgb(103, 151, 255);
+        }
+
+        .first-content {
+            height: 100%;
+            width: 100%;
+            transition: all 0.4s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            opacity: 1;
+            border-radius: 15px;
+            color: rgb(0, 0, 128);
+        }
+
+        .card:hover .first-content {
+            height: 0px;
+            opacity: 0;
+        }
+
+        .second-content {
+            height: 0%;
+            width: 100%;
+            opacity: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            transition: all 0.4s;
+            font-size: 0px;
+            transform: rotate(90deg) scale(-1);
+            color: rgb(255, 255, 204);
+        }
+
+        .card:hover .second-content {
+            opacity: 1;
+            height: 100%;
+            font-size: 1.8rem;
+            transform: rotate(0deg);
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Center the cards horizontally */
+            gap: 20px; /* Add gap between cards */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header id="header">
+    <h1><a href="#">Kimia <span>Itu Mudah</span></a></h1>
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+           <nav id="menu">
+                <ul class="links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Get Started</a></li>
+                    <li><a href="mindmap.html">Mind Map</a></li>
+                    <li><a href="submit.html">Submit</a></li>
+                    <li><a href="material.html">Material</a></li>
+                    <li><a href="games.html">Mini Games</a></li>
+
+                </ul>
+            </nav>
+
+<!-- Main -->
+<div id="main">
+
+    <!-- Two -->
+    <section class="wrapper style2">
+        <div class="inner">
+            <header>
+                <h2>Pelajari Hal Baru</h2>
+                <blockquote>Pengetahuan Adalah Penerangan</blockquote>
+            </header>
+            <!-- Tabbed Video Section -->
+            <div class="flex flex-tabs" data-aos="fade-right">
+                <ul class="tab-list">
+                    <li><a href="#" data-tab="tab-1" class="active">Materi 1</a></li>
+                    <li><a href="#" data-tab="tab-2">Materi 2</a></li>
+                </ul>
+                <div class="tabs">
+                    <!-- Tab 1 -->
+                    <div class="tab tab-1 flex-container">
+                        <a href="material/redoks.html">
+                        <div class="card">
+                            <div class="first-content">
+                                <span>Reaksi Redoks</span>
+                            </div>
+                            <div class="second-content">
+                                <span>Pelajari <br> Sekarang</span>
+                            </div>
+                        </div>
+                        </a>
+                        <a href="material/elektronomia.html">
+                        <div class="card">
+                            <div class="first-content">
+                                <span>Elektronomia</span>
+                            </div>
+                            <div class="second-content">
+                                <span>Pelajari <br> Sekarang</span>
+                            </div>
+                        </div>
+                        </a>
+
+                        <a href="material/selelektrokimia.html">
+                        <div class="card">
+                            <div class="first-content">
+                                <span>Sel Elektro Kimia</span>
+                            </div>
+                            <div class="second-content">
+                                <span>Pelajari <br> Sekarang</span>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <!-- Tab 2 -->
+                    <div class="tab tab-2 flex-container" style="display: none;">
+                        <a href="material/elektrodaselvolta.html">
+                        <div class="card">
+                            <div class="first-content">
+                                <span>Elektroda Sel Volta</span>
+                            </div>
+                            <div class="second-content">
+                                <span>Pelajari <br> Sekarang</span>
+                            </div>
+                        </div>
+                        </a>
+
+                        <a href="material/potensialsel.html">
+                        <div class="card">
+                            <div class="first-content">
+                                <span>Potensial Sel</span>
+                            </div>
+                            <div class="second-content">
+                                <span>Pelajari <br> Sekarang</span>
+                            </div>
+                        </div>
+                        </a>
+
+                        <a href="material/selelektrolis.html">
+                        <div class="card">
+                            <div class="first-content">
+                                <span>Sel Elektrolis</span>
+                            </div>
+                            <div class="second-content">
+                                <span>Pelajari <br> Sekarang</span>
+                            </div>
+                        </div>
+                        </a>
+
+                        <a href="material/korosi.html">
+                        <div class="card">
+                            <div class="first-content">
+                                <span>Korosi</span>
+                            </div>
+                            <div class="second-content">
+                                <span>Pelajari <br> Sekarang</span>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+    // Script untuk meng-handle tabbed content
+    document.addEventListener('DOMContentLoaded', function() {
+        const tabs = document.querySelectorAll('.tab-list a');
+        const tabContents = document.querySelectorAll('.tab');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Remove active class from all tabs
+                tabs.forEach(tab => tab.classList.remove('active'));
+
+                // Add active class to the clicked tab
+                this.classList.add('active');
+
+                // Hide all tab contents
+                tabContents.forEach(tabContent => tabContent.style.display = 'none');
+
+                // Show the corresponding tab content
+                const tabTarget = this.getAttribute('data-tab');
+                document.querySelector(`.${tabTarget}`).style.display = 'flex';
+            });
+        });
+    });
+</script>
+
+</body>
+</html>

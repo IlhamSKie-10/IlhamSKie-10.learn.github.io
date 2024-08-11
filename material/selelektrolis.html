@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Sel Volta</title>
+    <style>
+        body {
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #8BC6EC 0%, #800080 100%);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+        }
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2, h3, h4 {
+            color: #444;
+            margin-top: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+        blockquote {
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 4px solid #2196F3;
+            background-color: #f9f9f9;
+        }
+        .reaction-table {
+            width: 100%;
+            margin-top: 15px;
+            border-collapse: collapse;
+        }
+        .reaction-table th,
+        .reaction-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .reaction-table th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .note {
+            background-color: #e7f3fe;
+            border-left: 6px solid #2196F3;
+            margin-top: 20px;
+            padding: 15px;
+        }
+          .cta {
+     
+      bottom: 20px; 
+      right: 20px;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    .cta span {
+      padding-bottom: 7px;
+      letter-spacing: 4px;
+      font-size: 14px;
+      padding-right: 15px;
+      text-transform: uppercase;
+    }
+
+    .cta svg {
+      transform: translateX(-8px);
+      transition: all 0.3s ease;
+    }
+
+    .cta:hover svg {
+      transform: translateX(0);
+    }
+
+    .cta:active svg {
+      transform: scale(0.9);
+    }
+
+    .hover-underline-animation {
+      position: relative;
+      color: black;
+      padding-bottom: 20px;
+    }
+
+    .hover-underline-animation:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #000000;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .cta:hover .hover-underline-animation:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sel Elektrolisis</h2>
+        <p>Sel elektrolisis adalah perangkat yang digunakan untuk menjalankan reaksi kimia melalui aplikasi energi listrik. Reaksi ini disebut elektrolisis dan bertujuan untuk mengubah energi listrik menjadi energi kimia.</p>
+        <img src="../images/elek5.png" style="width: 300px;height: 400px; margin-left: 250px;">
+        <p>Pada sel elektrolisis, katoda memiliki muatan negatif sedangkan anoda memiliki muatan positif. Sesuai dengan prinsip kerja arus listrik. Terdiri dari zat yang dapat mengalami proses ionisasi, elektroda, dan sumber listrik (baterai). Listrik dialirkan dari kutub negatif dari baterai ke katoda yang bermuatan negatif. Larutan akan mengalami ionisasi menjadi kation dan anion. Kation di katoda akan mengalami reduksi sedangkan di anoda akan mengalami oksidasi.</p>
+        <p>Proses elektrolisis biasanya digunakan untuk menguraikan senyawa menjadi unsur-unsur penyusunnya atau untuk melakukan proses pelapisan logam.</p>
+        
+        <h3>Komponen Sel Elektrolisis</h3>
+        <ul>
+            <li><strong>Anoda:</strong> Elektroda positif tempat terjadinya reaksi oksidasi (pelepasan elektron).</li>
+            <li><strong>Katoda:</strong> Elektroda negatif tempat terjadinya reaksi reduksi (penerimaan elektron).</li>
+        </ul>
+
+        <h3>Hukum Faraday</h3>
+        <p>Hukum Faraday menjelaskan hubungan antara jumlah zat yang dihasilkan atau diuraikan di elektroda selama elektrolisis dengan jumlah listrik yang digunakan dalam proses tersebut. Hukum Faraday terdiri dari dua hukum utama:</p>
+
+        <h4>Hukum Faraday I</h4>
+        <blockquote>
+            Hukum Faraday I menyatakan bahwa massa zat yang dihasilkan atau diuraikan di elektroda selama elektrolisis sebanding dengan jumlah muatan listrik yang mengalir melalui larutan elektrolit.<br>
+            <strong>m = k ⋅ Q</strong><br>
+            di mana:<br>
+            m adalah massa zat yang dihasilkan atau diuraikan (dalam gram),<br>
+            Q adalah muatan listrik total yang mengalir (dalam coulomb),<br>
+            k adalah konstanta yang disebut ekivalen elektrokimia dari zat tersebut.
+        </blockquote>
+
+        <h4>Hukum Faraday II</h4>
+        <blockquote>
+            Hukum Faraday II menyatakan bahwa massa zat yang dihasilkan atau diuraikan oleh jumlah muatan listrik yang sama sebanding dengan ekivalen kimia dari zat tersebut.<br>
+            <strong>m = (Q / F) × (M / n)</strong><br>
+            di mana:<br>
+            m adalah massa zat yang dihasilkan atau diuraikan (dalam gram),<br>
+            Q adalah muatan listrik total yang mengalir (dalam coulomb),<br>
+            F adalah Konstanta Faraday (sekitar 96485 coulomb per mol elektron),<br>
+            M adalah massa molar dari zat (dalam gram per mol),<br>
+            n adalah jumlah elektron yang terlibat dalam reaksi per mol zat.
+        </blockquote>
+
+        <h3>Kaitannya dengan Sel Elektrolisis</h3>
+        <p>Hukum Faraday sangat penting dalam desain dan operasi sel elektrolisis karena membantu dalam menghitung jumlah zat yang akan dihasilkan atau diuraikan berdasarkan arus listrik yang diterapkan. Dalam praktiknya, ini berarti bahwa dengan mengetahui arus listrik dan waktu elektrolisis, seseorang dapat menghitung berapa banyak produk yang akan dihasilkan atau berapa banyak zat yang akan diuraikan di elektroda.</p>
+
+        <h3>Jenis Elektroda dalam Sel Elektrolisis</h3>
+        <p>Dalam konteks sel elektrolisis, elektroda dapat diklasifikasikan menjadi dua jenis utama berdasarkan reaktivitasnya selama proses elektrolisis:</p>
+        <ul>
+            <li><strong>Elektroda Inert:</strong> Elektroda yang tidak bereaksi selama proses elektrolisis, seperti platinum atau grafit.</li>
+            <li><strong>Elektroda Aktif:</strong> Elektroda yang terlibat dalam reaksi elektrokimia, seperti timbal atau tembaga.</li>
+        </ul>
+                <h2>Jenis-jenis Elektroda Sel Elektrolisis</h2>
+        
+        <h3>Elektroda Inert</h3>
+        <p>Elektroda inert adalah elektroda yang tidak bereaksi secara kimia dengan larutan elektrolit atau produk elektrolisis. Elektroda ini hanya berfungsi sebagai konduktor arus listrik dan tidak berpartisipasi dalam reaksi kimia yang terjadi di sel elektrolisis. Contoh umum elektroda inert adalah platinum (Pt) dan grafit (C).</p>
+        <ul>
+            <li>Tidak ikut bereaksi dalam reaksi elektrolisis.</li>
+            <li>Tidak mengalami perubahan massa atau komposisi selama proses elektrolisis.</li>
+            <li>Digunakan dalam elektrolisis ketika produk reaksi tidak diinginkan untuk bereaksi dengan elektroda.</li>
+        </ul>
+        <p><strong>Contoh penggunaan:</strong></p>
+        <ul>
+            <li>Elektrolisis air menggunakan elektroda platinum.</li>
+            <li>Elektrolisis larutan natrium klorida (NaCl) dengan elektroda grafit.</li>
+        </ul>
+
+        <h3>Elektroda Aktif</h3>
+        <p>Elektroda aktif adalah elektroda yang dapat bereaksi dengan larutan elektrolit atau produk elektrolisis. Elektroda ini tidak hanya berfungsi sebagai konduktor arus listrik tetapi juga terlibat dalam reaksi kimia yang terjadi di sel elektrolisis. Elektroda aktif seringkali larut atau mengalami perubahan massa selama proses elektrolisis. Contoh umum elektroda aktif adalah tembaga (Cu) dan perak (Ag).</p>
+        <ul>
+            <li>Berpartisipasi dalam reaksi elektrolisis.</li>
+            <li>Dapat mengalami perubahan massa atau komposisi selama proses elektrolisis.</li>
+            <li>Digunakan ketika elektroda diinginkan untuk ikut bereaksi atau menjadi bagian dari produk akhir.</li>
+        </ul>
+        <p><strong>Contoh penggunaan:</strong></p>
+        <ul>
+            <li>Elektrolisis larutan tembaga(II) sulfat (CuSO<sub>4</sub>) menggunakan elektroda tembaga, di mana tembaga dari anoda larut dan mengendap di katoda.</li>
+            <li>Elektroplating, di mana elektroda aktif digunakan untuk melapisi permukaan objek dengan logam yang diinginkan.</li>
+        </ul>
+        
+        <h2>Elektroda Sel Elektrolisis</h2>
+        <p>Sel elektrolis terdiri dari elektroda yang terjadi pada reaksi elektroda dan bergantung pada potensial oksidasi / reduksi standar.</p>
+        <p>Pada sel elektrolis, elektroda terdiri dari dua komponen utama:</p>
+        <ul>
+            <li><strong>Katoda:</strong> Elektroda negatif di mana reaksi reduksi terjadi. Pada katoda, ion-ion dalam larutan atau lelehan menerima elektron dan diubah menjadi zat yang lebih bersifat reduksi. Misalnya, dalam elektrolisis air, hidrogen gas terbentuk di katoda.</li>
+            <li><strong>Anoda:</strong> Elektroda positif di mana reaksi oksidasi terjadi. Pada anoda, zat-zat yang ada dalam larutan atau lelehan melepaskan elektron dan diubah menjadi zat yang lebih bersifat oksidasi. Dalam elektrolisis air, oksigen gas terbentuk di anoda.</li>
+        </ul>
+        <p>Reaksi elektroda pada sel elektrolisis bergantung pada beberapa faktor kunci:</p>
+        <ul>
+            <li><strong>Jenis Elektrolit:</strong> Elektrolit adalah zat yang terlarut dalam larutan atau lelehan yang akan terurai menjadi ion. Jenis elektrolit memengaruhi jenis reaksi yang terjadi pada elektroda. Misalnya, dalam larutan natrium klorida (NaCl), reaksi di elektroda akan berbeda dibandingkan dengan larutan tembaga(II) sulfat (CuSO<sub>4</sub>).</li>
+            <li><strong>Jenis Elektroda:</strong> Material elektroda juga memengaruhi reaksi yang terjadi. Elektroda yang berbeda dapat memiliki sifat katalitik yang berbeda atau dapat terlibat dalam reaksi sampingan. Misalnya, elektroda grafit atau logam seperti platinum sering digunakan karena kestabilannya dan kemampuannya untuk mendukung berbagai reaksi elektrokimia.</li>
+            <li><strong>Potensial Sel:</strong> Tegangan yang diterapkan pada sel elektrolis menentukan apakah reaksi reduksi atau oksidasi akan terjadi pada masing-masing elektroda. Potensial ini harus cukup besar untuk mengatasi energi aktivasi dari reaksi dan memfasilitasi pembentukan produk yang diinginkan.</li>
+            <li><strong>Konsentrasi Ion:</strong> Konsentrasi ion dalam elektrolit memengaruhi kecepatan dan arah reaksi. Misalnya, konsentrasi ion hidrogen dan oksigen dalam air memengaruhi laju elektrolisis air.</li>
+            <li><strong>pH Larutan:</strong> pH larutan elektrolit dapat memengaruhi reaksi yang terjadi di elektroda, terutama dalam sistem yang melibatkan asam atau basa. pH dapat mempengaruhi spesies yang tersedia untuk reaksi di permukaan elektroda.</li>
+            <li><strong>Temperatur:</strong> Temperatur dapat mempengaruhi laju reaksi elektrolitik dan juga potensial elektroda. Peningkatan temperatur sering kali meningkatkan laju reaksi dengan memberikan energi tambahan untuk proses elektroda.</li>
+        </ul>
+        <a href="../material.html">
+        <button class="cta">
+          <span class="hover-underline-animation">Go Back</span>
+          <svg
+            id="arrow-horizontal"
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="10"
+            viewBox="0 0 46 16"
+          >
+            <path
+              id="Path_10"
+              data-name="Path 10"
+              d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+              transform="translate(30)"
+            ></path>
+          </svg>
+        </button>
+        </a>
+    </div>
+</body>
+</html>

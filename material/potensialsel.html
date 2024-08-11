@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Sel Volta</title>
+    <style>
+        body {
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #8BC6EC 0%, #800080 100%);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+        }
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2, h3 {
+            color: #444;
+            margin-top: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 10px solid #ccc;
+            margin: 20px 0;
+            padding: 10px 20px;
+            font-style: italic;
+            color: #555;
+        }
+             .cta {
+     
+      bottom: 20px; 
+      right: 20px;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    .cta span {
+      padding-bottom: 7px;
+      letter-spacing: 4px;
+      font-size: 14px;
+      padding-right: 15px;
+      text-transform: uppercase;
+    }
+
+    .cta svg {
+      transform: translateX(-8px);
+      transition: all 0.3s ease;
+    }
+
+    .cta:hover svg {
+      transform: translateX(0);
+    }
+
+    .cta:active svg {
+      transform: scale(0.9);
+    }
+
+    .hover-underline-animation {
+      position: relative;
+      color: black;
+      padding-bottom: 20px;
+    }
+
+    .hover-underline-animation:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #000000;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .cta:hover .hover-underline-animation:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Potensial Sel</h1>
+
+        <h2>Potensial Sel dalam Sel Volta</h2>
+        <p>Potensial sel dalam sel Volta, atau sel galvanik, adalah perbedaan potensial listrik antara dua elektroda yang menyusun sel tersebut. Potensial sel, juga dikenal sebagai gaya gerak listrik (ggl) sel, merupakan ukuran kemampuan sel untuk menghasilkan listrik dari reaksi kimia yang terjadi di dalamnya. Potensial sel dapat dihitung menggunakan potensial elektroda standar dari anoda dan katoda.</p>
+
+        <h3>Perhitungan Potensial Sel</h3>
+        <p>Potensial sel (E°sel) dapat dihitung menggunakan potensial elektroda standar (E°) dari anoda dan katoda. Berikut adalah langkah-langkah untuk menghitung potensial sel:</p>
+        <ul>
+            <li><strong>Identifikasi Reaksi di Anoda dan Katoda:</strong>
+                <ul>
+                    <li><strong>Anoda:</strong> Tempat terjadinya oksidasi (reaksi kehilangan elektron).</li>
+                    <li><strong>Katoda:</strong> Tempat terjadinya reduksi (reaksi penerimaan elektron).</li>
+                </ul>
+            </li>
+            <li><strong>Tentukan Potensial Elektroda Standar (E°):</strong>
+                <ul>
+                    <li>Potensial elektroda standar biasanya diberikan dalam tabel potensial elektroda standar. Nilai ini diukur terhadap elektroda hidrogen standar (SHE).</li>
+                </ul>
+            </li>
+            <li><strong>Gunakan Rumus Potensial Sel:</strong>
+                <ul>
+                    <li>Potensial sel standar (E°_sel) adalah selisih antara potensial elektroda katoda dan anoda.</li>
+                </ul>
+                <blockquote>E°sel = E°katoda − E°anoda</blockquote>
+            </li>
+        </ul>
+
+        <h3>Contoh Perhitungan</h3>
+        <p>Misalkan kita memiliki sel Volta dengan elektroda seng (Zn) dan tembaga (Cu). Reaksinya adalah sebagai berikut:</p>
+        <ul>
+            <li><strong>Anoda (oksidasi):</strong>
+                <blockquote>Zn (s) → Zn²⁺(aq) + 2e⁻<br>
+                E°Zn²⁺/Zn = −0.76 V</blockquote>
+            </li>
+            <li><strong>Katoda (reduksi):</strong>
+                <blockquote>Cu²⁺ (aq) + 2e⁻ → Cu (s)<br>
+                E°Cu²⁺/Cu = +0.34 V</blockquote>
+            </li>
+        </ul>
+        <p>Potensial sel standar dihitung sebagai:</p>
+        <blockquote>E°sel = E°katoda − E°anoda<br>
+        E°sel = +0.34 V − (−0.76 V)<br>
+        E°sel = +0.34 V + 0.76 V<br>
+        E°sel = +1.10 V</blockquote>
+
+        <h3>Faktor yang Mempengaruhi Potensial Sel</h3>
+        <ul>
+            <li><strong>Konsentrasi Ion dalam Larutan:</strong>
+                <ul>
+                    <li>Potensial sel dapat berubah jika konsentrasi ion di sekitar elektroda berbeda dari kondisi standar (1 M).</li>
+                    <li>Persamaan Nernst digunakan untuk menghitung potensial sel pada konsentrasi non-standar.</li>
+                </ul>
+            </li>
+            <li><strong>Suhu:</strong>
+                <ul>
+                    <li>Potensial sel juga bergantung pada suhu. Dalam kondisi non-standar, peningkatan suhu dapat meningkatkan atau menurunkan potensial sel tergantung pada sifat reaksi redoks.</li>
+                </ul>
+            </li>
+            <li><strong>Tekanan Gas (untuk reaksi yang melibatkan gas):</strong>
+                <ul>
+                    <li>Potensial sel dapat dipengaruhi oleh tekanan parsial gas yang terlibat dalam reaksi elektrokimia.</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Jenis Sel Volta</h2>
+        <p>Sel Volta, atau sel galvanik, bisa dikategorikan menjadi dua jenis utama berdasarkan kemampuan mereka untuk diisi ulang: sel primer dan sel sekunder. Keduanya memiliki prinsip kerja yang mirip, tetapi memiliki aplikasi dan karakteristik yang berbeda. Berikut adalah penjelasan mengenai sel Volta primer dan sekunder:</p>
+
+        <h3>Sel Volta Primer</h3>
+        <p>Sel Volta primer adalah sel yang dirancang untuk digunakan sekali saja dan tidak dapat diisi ulang setelah energi kimia yang tersimpan di dalamnya habis.</p>
+
+        <h4>Contoh Sel Volta Primer</h4>
+        <ul>
+            <li><strong>Baterai Alkalin:</strong> Umumnya digunakan dalam perangkat elektronik seperti remote TV, senter, dan mainan.
+                <ul>
+                    <li>Anoda: Seng (Zn)</li>
+                    <li>Katoda: Mangan dioksida (MnO₂)</li>
+                    <li>Elektrolit: Larutan kalium hidroksida (KOH)</li>
+                </ul>
+            </li>
+            <li><strong>Baterai Zinc-Carbon:</strong> Digunakan dalam aplikasi sehari-hari seperti jam dinding dan perangkat elektronik berdaya rendah.
+                <ul>
+                    <li>Anoda: Seng (Zn)</li>
+                    <li>Katoda: Karbon (C) dengan campuran mangan dioksida (MnO₂)</li>
+                    <li>Elektrolit: Pasta amonium klorida (NH₄Cl) atau seng klorida (ZnCl₂)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>Karakteristik</h4>
+        <ul>
+            <li><strong>Tidak Dapat Diisi Ulang:</strong> Reaksi kimia yang terjadi dalam sel ini tidak dapat dibalik, sehingga setelah semua bahan reaktan bereaksi, sel tidak lagi menghasilkan listrik.</li>
+            <li><strong>Aplikasi:</strong> Digunakan dalam aplikasi yang membutuhkan sumber energi sementara dan tidak berulang, seperti remote kontrol, jam dinding, dan perangkat portabel lainnya.</li>
+        </ul>
+
+        <h3>Sel Volta Sekunder</h3>
+        <p>Sel Volta sekunder adalah sel yang dapat diisi ulang dan digunakan berkali-kali. Energi kimia dalam sel ini dapat dipulihkan dengan mengalirkan arus listrik ke arah yang berlawanan dari reaksi dischargenya.</p>
+        <!-- Existing content -->
+
+        <h3>Contoh Sel Volta Sekunder</h3>
+        <ul>
+            <li><strong>Baterai Litium-Ion:</strong> Digunakan dalam perangkat elektronik portabel seperti smartphone, laptop, dan kendaraan listrik.
+                <ul>
+                    <li><strong>Anoda:</strong> Grafit (C)</li>
+                    <li><strong>Katoda:</strong> Oksida logam litium (seperti LiCoO₂)</li>
+                    <li><strong>Elektrolit:</strong> Larutan garam litium dalam pelarut organik</li>
+                </ul>
+            </li>
+            <li><strong>Baterai Timah-Asam (Lead-Acid):</strong> Digunakan dalam kendaraan otomotif dan aplikasi penyimpanan energi.
+                <ul>
+                    <li><strong>Anoda:</strong> Timbal (Pb)</li>
+                    <li><strong>Katoda:</strong> Timbal dioksida (PbO₂)</li>
+                    <li><strong>Elektrolit:</strong> Asam sulfat (H₂SO₄)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Karakteristik</h3>
+        <ul>
+            <li><strong>Dapat Diisi Ulang:</strong> Reaksi kimia dalam sel ini dapat dibalik dengan menerapkan arus listrik, memungkinkan sel untuk digunakan kembali.</li>
+            <li><strong>Aplikasi:</strong> Digunakan dalam aplikasi yang memerlukan sumber energi berkelanjutan, seperti elektronik portabel, kendaraan listrik, dan sistem penyimpanan energi.</li>
+        </ul>
+
+        <h3>Perbedaan Utama</h3>
+        <ul>
+            <li><strong>Kemampuan Pengisian Ulang:</strong>
+                <ul>
+                    <li><strong>Sel Primer:</strong> Tidak dapat diisi ulang.</li>
+                    <li><strong>Sel Sekunder:</strong> Dapat diisi ulang dan digunakan berkali-kali.</li>
+                </ul>
+            </li>
+            <li><strong>Reaksi Kimia:</strong>
+                <ul>
+                    <li><strong>Sel Primer:</strong> Reaksi kimia tidak dapat dibalik.</li>
+                    <li><strong>Sel Sekunder:</strong> Reaksi kimia dapat dibalik dengan mengalirkan arus listrik.</li>
+                </ul>
+            </li>
+            <li><strong>Aplikasi:</strong>
+                <ul>
+                    <li><strong>Sel Primer:</strong> Digunakan dalam perangkat yang memerlukan sumber energi sementara.</li>
+                    <li><strong>Sel Sekunder:</strong> Digunakan dalam perangkat yang memerlukan sumber energi berkelanjutan dan sering diisi ulang.</li>
+                </ul>
+            </li>
+        </ul>
+        <a href="../material.html">
+        <button class="cta">
+          <span class="hover-underline-animation">Go Back</span>
+          <svg
+            id="arrow-horizontal"
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="10"
+            viewBox="0 0 46 16"
+          >
+            <path
+              id="Path_10"
+              data-name="Path 10"
+              d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+              transform="translate(30)"
+            ></path>
+          </svg>
+        </button>
+        </a>
+    </div>
+</body>
+</html>

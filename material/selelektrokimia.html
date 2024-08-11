@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Sel Volta</title>
+    <style>
+        body {
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #8BC6EC 0%, #800080 100%);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+        }
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #444;
+            margin-top: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+        .reaction-table {
+            width: 100%;
+            margin-top: 15px;
+            border-collapse: collapse;
+        }
+        .reaction-table th,
+        .reaction-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .reaction-table th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .note {
+            background-color: #e7f3fe;
+            border-left: 6px solid #2196F3;
+            margin-top: 20px;
+            padding: 15px;
+        }
+                    .cta {
+     
+      bottom: 20px; 
+      right: 20px;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    .cta span {
+      padding-bottom: 7px;
+      letter-spacing: 4px;
+      font-size: 14px;
+      padding-right: 15px;
+      text-transform: uppercase;
+    }
+
+    .cta svg {
+      transform: translateX(-8px);
+      transition: all 0.3s ease;
+    }
+
+    .cta:hover svg {
+      transform: translateX(0);
+    }
+
+    .cta:active svg {
+      transform: scale(0.9);
+    }
+
+    .hover-underline-animation {
+      position: relative;
+      color: black;
+      padding-bottom: 20px;
+    }
+
+    .hover-underline-animation:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #000000;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .cta:hover .hover-underline-animation:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sel Elektro Kimia</h1>
+
+        <p>Sel Volta merupakan sel elektrokimia yang menghasilkan energi listrik diperoleh dari reaksi kimia yang berlangsung spontan. Beberapa literatur menyebutkan juga bahwa sel volta sama dengan sel galvani. Diperoleh oleh gabungan ilmuan yang bernama Alexander Volta dan Luigi Galvani pada tahun 1786. Bermula dari penemuan baterai yang berasal dari cairan garam.</p>
+        <img src="../images/elek2.png" style="width: 300px;height: 400px;margin-left: 200px;">
+        <p>Pada sel Volta terdapat elektroda yang berfungsi menghantarkan aliran listrik antara sel dengan lingkungan dan biasanya dicelupkan dalam elektrolit yang terlibat dalam reaksi. Elektroda dibagi menjadi dua jenis yakni Anoda dan Katoda:</p>
+
+        <ul>
+            <li><strong>Anoda</strong> adalah tempat terjadinya oksidasi yakni pada permukaan anoda terdapat setengah-reaksi oksidasi dimana elektron dibebaskan oleh zat yang teroksidasi dan meninggalkan sel melewati anoda.</li>
+            <li><strong>Katoda</strong> adalah tempat terjadinya reduksi yakni pada permukaan katoda terdapat setengah-reaksi reduksi dimana elektron bergerak ke dalam sel melalui katoda dan ditangkap oleh zat yang tereduksi di dalam sel.</li>
+        </ul>
+
+        <h2>Contoh Reaksi Redoks Spontan dalam Sel Volta</h2>
+
+        <p>Contoh reaksi redoks spontan dalam sel volta:</p>
+
+        <table class="reaction-table">
+            <tr>
+                <th>Reaksi</th>
+                <th>Tipe</th>
+            </tr>
+            <tr>
+                <td>Zn → Zn²⁺ + 2e⁻</td>
+                <td>Oksidasi</td>
+            </tr>
+            <tr>
+                <td>Cu²⁺ + 2e⁻ → Cu</td>
+                <td>Reduksi</td>
+            </tr>
+            <tr>
+                <td>Zn + Cu²⁺ → Zn²⁺ + Cu</td>
+                <td>Redoks</td>
+            </tr>
+        </table>
+        <img src="../images/elek3.png" style="width: 600px;height: 250px;margin-left: 100px;"><br>
+        <i style="margin-left: 350px;">Gambar 1</i><br>
+        <img src="../images/elek4.png" style="width: 600px;height: 250px;margin-left: 100px;"><br>
+        <i style="margin-left: 350px;">Gambar 2</i><br>
+        <p>Pada reaksi tersebut, setengah sel oksidasi terdiri dari batang seng (Zn) sebagai anoda yang dicelupkan ke dalam elektrolit Zn²⁺. Setengah sel reduksi terdiri atas batang tembaga (Cu) yang dicelupkan ke dalam elektrolit Cu²⁺.</p>
+
+        <p>Pada reaksi di atas, terdapat jembatan garam yang berfungsi untuk mengatasi hambatan yang terjadi karena pelepasan elektron dari masing-masing anoda dan katoda. Jembatan garam akan menarik ion-ion yang berlebih dalam kedua setengah-sel.</p>
+
+        <h2>Deret Volta dan Potensial Elektroda Standar</h2>
+
+        <p>Dikarenakan listrik yang dihasilkan harus melalui reaksi kimia yang spontan, maka pemilihan dari larutan elektrolit harus mengikuti kaedah deret volta. Deret volta didapat dari data potensial elektroda standar:</p>
+
+        <table class="reaction-table">
+            <tr>
+                <th>Setengah Reaksi Reduksi</th>
+                <th>E<sub>0</sub>red (V)</th>
+            </tr>
+            <tr>
+                <td>Li</td>
+                <td>-3,05</td>
+            </tr>
+            <tr>
+                <td>Na</td>
+                <td>-2,71</td>
+            </tr>
+            <tr>
+                <td>H<sub>2</sub> + 2OH⁻</td>
+                <td>-0,83</td>
+            </tr>
+            <tr>
+                <td>Zn</td>
+                <td>-0,76</td>
+            </tr>
+            <tr>
+                <td>Fe</td>
+                <td>-0,44</td>
+            </tr>
+            <tr>
+                <td>N<sub>2</sub>H<sub>5</sub>⁺</td>
+                <td>-0,23</td>
+            </tr>
+            <tr>
+                <td>H<sub>2</sub></td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Cu</td>
+                <td>+0,34</td>
+            </tr>
+            <tr>
+                <td>4OH⁻</td>
+                <td>+0,40</td>
+            </tr>
+            <tr>
+                <td>Fe²⁺</td>
+                <td>+0,77</td>
+            </tr>
+            <tr>
+                <td>Ag</td>
+                <td>+0,80</td>
+            </tr>
+            <tr>
+                <td>NO + 2H<sub>2</sub>O</td>
+                <td>+0,96</td>
+            </tr>
+            <tr>
+                <td>Mn²⁺ + 2H<sub>2</sub>O</td>
+                <td>+1,23</td>
+            </tr>
+            <tr>
+                <td>2Cl⁻</td>
+                <td>+1,67</td>
+            </tr>
+            <tr>
+                <td>2F⁻</td>
+                <td>+2,87</td>
+            </tr>
+        </table>
+
+        <p>Urutan ion-ion berdasarkan peningkatan nilai potensial elektroda standar disebut deret volta. (Semakin kiri akan mudah teroksidasi dan semakin kanan makin mudah tereduksi):</p>
+
+        <p class="note">Li⁺, K⁺, Ba²⁺, Ca²⁺, N⁺, Mg²⁺, Al³⁺, Zn²⁺, Cr²⁺, Fe²⁺, Cd²⁺, Co²⁺, Ni²⁺, Sn²⁺, Pb²⁺, H⁺, Cu²⁺, Hg⁺, Ag⁺, Pt⁺, Au³⁺.</p>
+
+        <h2>Jenis-Jenis Sel Volta</h2>
+
+        <p>Sel Volta dibedakan menjadi tiga jenis:</p>
+
+        <ul>
+            <li><strong>Sel Volta Primer:</strong> Merupakan sel Volta yang tidak dapat diperbarui (sekali pakai) dan bersifat tidak dapat balik (irreversible). Contohnya: baterai kering.</li>
+            <li><strong>Sel Volta Sekunder:</strong> Merupakan sel Volta yang dapat diperbarui (berkali-kali pakai) dan bersifat dapat balik (reversible) ke keadaan semula. Contohnya: baterai aki.</li>
+            <li><strong>Sel Volta Bahan Bakar (Fuel Cell):</strong> Adalah sel Volta yang tidak dapat diperbarui tetapi tidak habis. Contohnya: sel campuran bahan bakar pesawat luar angkasa.</li>
+        </ul>
+        <a href="../material.html">
+        <button class="cta">
+          <span class="hover-underline-animation">Go Back</span>
+          <svg
+            id="arrow-horizontal"
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="10"
+            viewBox="0 0 46 16"
+          >
+            <path
+              id="Path_10"
+              data-name="Path 10"
+              d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+              transform="translate(30)"
+            ></path>
+          </svg>
+        </button>
+        </a>
+    </div>
+</body>
+</html>

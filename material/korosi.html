@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Artikel Kimia - Reaksi Redoks</title>
+	<style>
+		body {
+			color: #333;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background: linear-gradient(135deg, #8BC6EC 0%, #800080 100%);
+			background-size: 400% 400%;
+			animation: gradientAnimation 10s ease infinite;
+		}
+
+		@keyframes gradientAnimation {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+
+		.container {
+			background: #fff;
+			padding: 30px;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			max-width: 800px;
+			width: 100%;
+		}
+
+		h1 {
+			text-align: center;
+			color: #4A90E2;
+			margin-bottom: 20px;
+			font-size: 2.5em;
+		}
+
+		p {
+			margin: 15px 0;
+			text-align: justify;
+			font-size: 1.1em;
+			line-height: 1.8;
+			color: #555;
+		}
+
+		blockquote {
+			background-color: #f2f2f2;
+			border-left: 5px solid #ccc;
+			padding: 15px;
+			margin: 20px 0;
+			font-size: 1.1em;
+			color: #333;
+			font-style: italic;
+		}
+
+		ul {
+			margin: 15px 0;
+			padding-left: 20px;
+			color: #555;
+		}
+
+		ul li {
+			margin: 8px 0;
+		}
+
+		strong {
+			color: #4A90E2;
+		}
+		   .cta {
+     
+      bottom: 20px; 
+      right: 20px;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    .cta span {
+      padding-bottom: 7px;
+      letter-spacing: 4px;
+      font-size: 14px;
+      padding-right: 15px;
+      text-transform: uppercase;
+    }
+
+    .cta svg {
+      transform: translateX(-8px);
+      transition: all 0.3s ease;
+    }
+
+    .cta:hover svg {
+      transform: translateX(0);
+    }
+
+    .cta:active svg {
+      transform: scale(0.9);
+    }
+
+    .hover-underline-animation {
+      position: relative;
+      color: black;
+      padding-bottom: 20px;
+    }
+
+    .hover-underline-animation:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #000000;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .cta:hover .hover-underline-animation:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Korosi dan Perlindungannya</h1>
+		<p>Korosi adalah fenomena elektrokimia dan hanya menyerang logam. Ada pula definisi lain yang mengatakan bahwa karat merupakan rusaknya logam karena adanya zat penyebab karat. Pada dasarnya peristiwa korosi adalah reaksi elektrokimia. Secara alami pada permukaan logam dilapisi oleh suatu lapisan film oksida (FeO, OH). Pasivitas dari lapisan film ini akan merusak karena adanya pengaruh dari lingkungan, misalnya adanya penurunan pH atau alkalinitas dari lingkungan ataupun serangan dari ion klorida.</p>
+		
+		<p>Reaksi pada korosi umumnya seperti reaksi di bawah ini:</p>
+		<ul>
+			<li>Fe → Fe<sup>2+</sup> + 2e<sup>-</sup></li>
+			<li>H<sub>2</sub>O → H<sup>+</sup> + OH<sup>-</sup></li>
+			<li>Fe<sup>2+</sup> + OH<sup>-</sup> → Fe(OH)<sub>2</sub></li>
+			<li>4Fe(OH)<sub>2</sub> + O<sub>2</sub> + H<sub>2</sub>O → 4Fe(OH)<sub>3</sub> atau Karat</li>
+		</ul>
+
+		<p>Pada proses karat terjadi reaksi antara ion-ion dan juga antar elektron. Karat atau perkaratan sangat lazim terjadi pada besi. Besi merupakan logam yang mudah berkarat. Karat besi (Fe(OH)<sub>3</sub>) merupakan zat yang dihasilkan pada peristiwa korosi, berupa zat padat berwarna cokelat kemerahan yang bersifat rapuh serta berpori. Bila dibiarkan, lama kelamaan besi akan habis menjadi korosi. Dampak dari peristiwa karat bersifat sangat merugikan, korosi merupakan dari oksidasi besi.</p>
+
+		<p>Korosi dapat dicegah dengan pelapisan logam dan pengarbonan anoda. Pelapisan logam bertujuan untuk mencegah logam bersinggungan dengan oksigen dengan melakukan cara sebagai berikut:</p>
+		<ul>
+			<li><strong>Mengecat (coating):</strong> Pemberian lapisan cat pada permukaan besi guna mengurangi sentuhan dengan oksigen.</li>
+			<li><strong>Memberi lapisan oli atau minyak:</strong> Seperti halnya dengan cat/coating tetapi menggunakan minyak atau oli untuk melumasi bagian permukaan logam agar tidak bereaksi dengan oksigen. Terdapat pada perlindungan mesin kendaraan.</li>
+		</ul>
+		
+		<p>Kedua adalah dengan karbonisasi anoda yang juga dapat merujuk pada teknik perlindungan katodik yang digunakan untuk mencegah korosi pada logam, terutama pada struktur beton bertulang dan pipa logam yang terbenam dalam tanah atau air. Berikut penjelasan mengenai karbonisasi anoda dalam konteks ini:</p>
+		<ul>
+			<li><strong>Perlindungan Katodik Galvanik:</strong> Menggunakan anoda yang lebih reaktif (dapat dilihat pada urutan elektro kimia) yang akan korosi dan melindungi logam yang ingin dilindungi (katoda).</li>
+			<li><strong>Perlindungan Katodik Impressed Current:</strong> Menggunakan sumber listrik eksternal untuk memberikan arus listrik ke anoda yang terbuat dari material yang tidak mudah terkorosi (seperti grafit atau platinum).</li>
+		</ul>
+		<a href="../material.html">
+        <button class="cta">
+          <span class="hover-underline-animation">Go Back</span>
+          <svg
+            id="arrow-horizontal"
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="10"
+            viewBox="0 0 46 16"
+          >
+            <path
+              id="Path_10"
+              data-name="Path 10"
+              d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+              transform="translate(30)"
+            ></path>
+          </svg>
+        </button>
+        </a>
+	</div>
+</body>
+</html>

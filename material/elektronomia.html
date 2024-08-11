@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Artikel Kimia - Elektrokimia</title>
+	<style>
+		body {
+			color: #333;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background: linear-gradient(135deg, #8BC6EC 0%, #800080 100%);
+			background-size: 400% 400%;
+			animation: gradientAnimation 10s ease infinite;
+		}
+		@keyframes gradientAnimation {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+		.container {
+			background: #fff;
+			padding: 30px;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			max-width: 800px;
+			width: 100%;
+		}
+		h1 {
+			text-align: center;
+			color: #4A90E2;
+			margin-bottom: 20px;
+			font-size: 2.5em;
+		}
+		p {
+			margin: 15px 0;
+			text-align: justify;
+			font-size: 1.1em;
+			line-height: 1.8;
+			color: #555;
+		}
+		ul {
+			margin: 15px 0;
+			padding-left: 20px;
+			color: #555;
+		}
+		ul li {
+			margin: 8px 0;
+		}
+		blockquote {
+			background: #f2f2f2;
+			border-left: 5px solid #4A90E2;
+			margin: 20px 0;
+			padding: 15px 20px;
+			color: #333;
+			font-style: italic;
+		}
+		#elek1{
+			margin-left: 40px;
+			width: 700px;
+			height: 250px;
+		}
+	 .cta {
+	 
+	  bottom: 20px; 
+	  right: 20px;
+	  border: none;
+	  background: none;
+	  cursor: pointer;
+	}
+
+	.cta span {
+	  padding-bottom: 7px;
+	  letter-spacing: 4px;
+	  font-size: 14px;
+	  padding-right: 15px;
+	  text-transform: uppercase;
+	}
+
+	.cta svg {
+	  transform: translateX(-8px);
+	  transition: all 0.3s ease;
+	}
+
+	.cta:hover svg {
+	  transform: translateX(0);
+	}
+
+	.cta:active svg {
+	  transform: scale(0.9);
+	}
+
+	.hover-underline-animation {
+	  position: relative;
+	  color: black;
+	  padding-bottom: 20px;
+	}
+
+	.hover-underline-animation:after {
+	  content: "";
+	  position: absolute;
+	  width: 100%;
+	  transform: scaleX(0);
+	  height: 2px;
+	  bottom: 0;
+	  left: 0;
+	  background-color: #000000;
+	  transform-origin: bottom right;
+	  transition: transform 0.25s ease-out;
+	}
+
+	.cta:hover .hover-underline-animation:after {
+	  transform: scaleX(1);
+	  transform-origin: bottom left;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Elektrokimia</h1>
+		<p>Elektrokimia mempelajari semua reaksi kimia yang disebabkan oleh energi listrik serta semua reaksi kimia (reaksi redoks) yang berkaitan dengan listrik. 
+		Secara umum, elektrokimia dibagi menjadi dua, yaitu sel volta dan sel elektrolisis. Perbedaan sel volta/galvani dan sel elektrolis adalah:</p>
+		<img src="../images/elek1.png" id="elek1">
+		<p><strong>Sel elektrokimia (sel volta)</strong> menggunakan reaksi redoks untuk menghasilkan energi listrik, energi kimia diubah menjadi listrik. Cara kerjanya adalah:</p>
+		<ul>
+			<li>Pada katoda terjadi setengah reaksi reduksi <blockquote>Y<sup>+</sup> + e<sup>-</sup> → Y</blockquote> saat katoda bereaksi dengan elektrolit Y.</li>
+			<li>Pada anoda terjadi setengah reaksi oksidasi <blockquote>X → X<sup>+</sup> + e<sup>-</sup></blockquote> saat anoda bereaksi dengan elektrolit X.</li>
+			<li>Untuk mengatasi pelepasan ion dari kedua elektrolit yang menghambat reaksi reduksi dan oksidasi didalamnya, maka diletakkan jembatan garam untuk menghubungkan antara elektrolit X dan Y sehingga akan mengumpulkan ion-ion yang dilepaskan.</li>
+			<li>Terjadi reaksi sel (redoks) karena dihubungkan dengan jembatan garam yakni <blockquote>X + Y<sup>+</sup> → X<sup>+</sup> + Y</blockquote> (spontan), sehingga arah elektron mengalir dari katoda ke anoda.</li>
+		</ul>
+
+		<p><strong>Sel elektrolisis</strong> merupakan penggunaan energi listrik untuk membangkitkan reaksi redoks, energi listrik diubah menjadi energi kimia. Cara kerjanya adalah:</p>
+		<ul>
+			<li>Setelah sirkuit dialiri arus listrik, maka akan mengakibatkan setengah reaksi oksidasi pada katoda dengan elektrolit yakni <blockquote>X<sup>-</sup> → X + e<sup>-</sup></blockquote>.</li>
+			<li>Terjadi reaksi setengah reduksi antara anoda terhadap elektrolit yakni <blockquote>Y<sup>+</sup> + e<sup>-</sup> → Y</blockquote>.</li>
+			<li>Terjadi reaksi sel (redoks) pada ketiganya yakni <blockquote>B<sup>-</sup> + A<sup>+</sup> → B + A</blockquote> (tidak spontan).</li>
+			<li>Terjadi perpindahan molekul dari anoda ke katoda.</li>
+		</ul>
+		<p><strong>Sel Elektro Kimia (Sel Volta/Galvani)</strong></p>
+		<p>Sel Volta merupakan sel elektrokimia yang menghasilkan energi listrik diperoleh dari reaksi kimia yang berlangsung spontan. Beberapa literatur menyebutkan juga bahwa sel volta sama dengan sel galvani. Diperoleh oleh gabungan ilmuan yang bernama Alexander Volta dan Luigi Galvani pada tahun 1786. Bermula dari penemuan baterai yang berasal dari caian garam.</p>
+		<p>Pada sel Volta terdapat elektroda yang berfungsi menghantarkan aliran listrik antara sel dengan lingkungan dan biasanya dicelupkan dalam elektrolit yang terlibat dalam reaksi. Elektroda dibagi menjadi dua jenis yakni Anoda dan Katoda:</p>
+		<ul>
+			<li><strong>Anoda</strong> adalah tempat terjadinya oksidasi yakni pada permukaan anoda terdapat setengah-reaksi oksidasi dimana elektron dibebaskan oleh zat yang teroksidasi dan meninggalkan sel melewati anoda.</li>
+			<li><strong>Katoda</strong> adalah tempat terjadinya reduksi yakni pada permukaan katoda terdapat reaksi setengah-reaksi reduksi dimana elektron bergerak ke dalam sel melalui katoda dan ditangkap oleh zat yang tereduksi di dalam sel.</li>
+		</ul>
+		<p>Contoh reaksi redoks spontan dalam sel volta:</p>
+		<blockquote>Zn → Zn<sup>2+</sup> + 2e<sup>-</sup> &emsp; (Oksidasi)</blockquote>
+		<blockquote>Cu<sup>2+</sup> + 2e<sup>-</sup> → Cu &emsp; (Reduksi)</blockquote>
+		<blockquote>Zn + Cu<sup>2+</sup> → Zn<sup>2+</sup> + Cu &emsp; (Redoks)</blockquote>
+		<p>Pada reaksi tersebut, setengah sel oksidasi terdiri dari batang seng (Zn) sebagai anoda yang dicelupkan ke dalam elektrolit Zn<sup>2+</sup>. Setengah sel reduksi terdiri atas batang tembaga (Cu) yang dicelupkan ke dalam elektrolit Cu<sup>2+</sup>.</p>
+		<p>Pada reaksi di atas, terdapat jembatan garam yang digunakan untuk mengatasi hambatan akibat pelepasan elektron dari masing-masing anoda dan katoda. Jembatan garam akan menarik ion-ion yang berlebih dalam kedua setengah-sel.</p>
+		<p>Dikarenakan listrik yang dihasilkan harus melalui reaksi kimia yang spontan, maka pemilihan larutan elektrolit harus mengikuti kaedah deret volta. Deret volta didapat dari data potensial elektroda standar sebagai berikut:</p>
+		<table border="1" cellspacing="0" cellpadding="8" style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+			<thead>
+				<tr>
+					<th>Setengah Reaksi Reduksi</th>
+					<th>E<sub>ored</sub> (V)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Li</td>
+					<td>-3,05</td>
+				</tr>
+				<tr>
+					<td>Na</td>
+					<td>-2,71</td>
+				</tr>
+				<tr>
+					<td>H<sub>2</sub> + 2OH<sup>-</sup></td>
+					<td>-0,83</td>
+				</tr>
+				<tr>
+					<td>Zn</td>
+					<td>-0,76</td>
+				</tr>
+				<tr>
+					<td>Fe</td>
+					<td>-0,44</td>
+				</tr>
+				<tr>
+					<td>N<sub>2</sub>H<sub>5</sub><sup>+</sup></td>
+					<td>-0,23</td>
+				</tr>
+				<tr>
+					<td>H<sub>2</sub></td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>Cu</td>
+					<td>+0,34</td>
+				</tr>
+				<tr>
+					<td>4OH<sup>-</sup></td>
+					<td>+0,40</td>
+				</tr>
+				<tr>
+					<td>Fe<sup>2+</sup></td>
+					<td>+0,77</td>
+				</tr>
+				<tr>
+					<td>Ag</td>
+					<td>+0,80</td>
+				</tr>
+				<tr>
+					<td>NO + 2H<sub>2</sub>O</td>
+					<td>+0,96</td>
+				</tr>
+				<tr>
+					<td>Mn<sup>2+</sup> + 2H<sub>2</sub>O</td>
+					<td>+1,23</td>
+				</tr>
+				<tr>
+					<td>2Cl<sup>-</sup></td>
+					<td>+1,67</td>
+				</tr>
+				<tr>
+					<td>2F<sup>-</sup></td>
+					<td>+2,87</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>Urutan ion-ion berdasarkan peningkatan nilai potensial elektroda standar disebut deret volta. (Semakin kiri akan mudah teroksidasi dan semakin kanan makin mudah tereduksi)</p>
+
+		<p>Urutan ion-ion berdasarkan peningkatan nilai potensial elektroda standar disebut deret volta. (Semakin kiri akan mudah teroksidasi dan semakin kanan makin mudah tereduksi)</p>
+		<blockquote>Li<sup>+</sup>, K<sup>+</sup>, Ba<sup>2+</sup>, Ca<sup>2+</sup>, N<sup>+</sup>, Mg<sup>2+</sup>, Al<sup>3+</sup>, Zn<sup>2+</sup>, Cr<sup>2+</sup>, Fe<sup>2+</sup>, Cd<sup>2+</sup>, Co<sup>2+</sup>, Ni<sup>2+</sup>, Sn<sup>2+</sup>, Pb<sup>2+</sup>, H<sup>+</sup>, Cu<sup>2+</sup>, Hg<sup>+</sup>, Ag<sup>+</sup>, Pt<sup>+</sup>, Au<sup>3+</sup>.</blockquote>
+		<p>Sel Volta dibedakan menjadi tiga jenis:</p>
+		<ul>
+			<li><strong>Sel Volta primer</strong> merupakan sel Volta yang tidak dapat diperbarui (sekali pakai) dan bersifat tidak dapat balik (irreversible), contohnya baterai kering.</li>
+			<li><strong>Sel Volta sekunder</strong> merupakan sel Volta yang dapat diperbarui (sekali pakai) dan bersifat dapat balik (reversible) ke keadaan semula, contohnya baterai aki.</li>
+			<li><strong>Sel Volta bahan bakar (full cell)</strong> adalah sel Volta yang tidak dapat diperbarui tetapi tidak habis, contohnya sel campuran bahan bakar pesawat luar angkasa.</li>
+		</ul>
+		<a href="../material.html">
+		<button class="cta">
+		  <span class="hover-underline-animation">Go Back</span>
+		  <svg
+		    id="arrow-horizontal"
+		    xmlns="http://www.w3.org/2000/svg"
+		    width="30"
+		    height="10"
+		    viewBox="0 0 46 16"
+		  >
+		    <path
+		      id="Path_10"
+		      data-name="Path 10"
+		      d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+		      transform="translate(30)"
+		    ></path>
+		  </svg>
+		</button>
+		</a>
+
+
+	</div>
+</body>
+</html>
